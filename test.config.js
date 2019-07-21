@@ -3,7 +3,7 @@ exports.config = {
 
     /** Test script */
     specs:[
-        "TC_001_Login.js"
+        "wdio-practice-api/set-value.js"
     ],
 
     capabilities: [
@@ -22,7 +22,15 @@ exports.config = {
     /** Config Test Framework */
     framework: 'mocha',
     mochaOpts: {
-        ui: 'bdd' //running mode
-    }
+        ui: 'bdd', //running mode
+        timeout: 600000, // Maximum 10 minutes for running a test suite
+    },
+
+    /** Reporter configuration */
+    reporters: [
+        ['junit', {
+            outputDir: './report'
+        }]
+    ],
     
 }
