@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "wdio"
+    "test": "wdio",
+    "driver": "./chromedriver"
   },
   "repository": {
     "type": "git",

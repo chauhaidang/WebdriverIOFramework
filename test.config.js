@@ -3,7 +3,7 @@ exports.config = {
 
     /** Test script */
     specs:[
-        "wdio-practice-api/waitForDisplayed.js"
+        "wdio-practice-api/click.js"
     ],
 
     capabilities: [
