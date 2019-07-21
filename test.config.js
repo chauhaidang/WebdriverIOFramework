@@ -3,7 +3,7 @@ exports.config = {
 
     /** Test script */
     specs:[
-        "wdio-practice-api/getUrlAndTitle.js"
+        "wdio-practice-api/handleAlert.js"
     ],
 
     capabilities: [
