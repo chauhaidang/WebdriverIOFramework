@@ -3,7 +3,7 @@ exports.config = {
 
     /** Test script */
     specs:[
-        "wdio-practice-api/selectDropdown.js"
+        "wdio-practice-api/getText.js"
     ],
 
     capabilities: [
