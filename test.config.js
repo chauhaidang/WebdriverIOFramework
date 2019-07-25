@@ -3,7 +3,7 @@ exports.config = {
 
     /** Test script */
     specs:[
-        "wdio-practice-api/handleAlert.js"
+        "wdio-practice-api/upload.js"
     ],
 
     capabilities: [
@@ -33,4 +33,5 @@ exports.config = {
         }]
     ],
     
+    logLevel: 'info'
 }
