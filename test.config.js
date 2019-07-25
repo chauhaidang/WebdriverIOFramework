@@ -3,7 +3,7 @@ exports.config = {
 
     /** Test script */
     specs:[
-        "wdio-practice-api/upload.js"
+        "wdio-practice-api/handleMultipleTabs.js"
     ],
 
     capabilities: [
